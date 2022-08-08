@@ -43,7 +43,6 @@ img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 502px;
 }
 
 /* Hero header */
@@ -68,7 +67,7 @@ img {
     align-items: center;
     justify-content: center;
 
-    z-index: 100;
+    z-index: 150;
 }
 
 /* .btn-header-menu {
@@ -92,22 +91,26 @@ img {
 .circle {
     position: absolute;
     top: 83px;
-    left: 36px;
+    right: -62px;
 
     z-index: 1;
 }
 
 .ice-cream {
     position: absolute;
-    top: 92px;
-    left: 117px;
-        
+    right: 12px;
+    bottom: 0;
+
+    /* left: 50%;
+    transform: translate(-50%, 0); */
+
     z-index: 1;
 }
 
 .slogan-box {
-    position: absolute;
-    margin-bottom: 158px;
+    position: relative;
+    padding-top: 194px;
+    padding-bottom: 158px;
 
     z-index: 3;
 }
@@ -115,7 +118,6 @@ img {
 .lead-slogan {
     width: 218px;
     margin-top: 0;
-    padding-top: 136px;
     font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
@@ -160,8 +162,8 @@ img {
 
 .mobile-menu {
     /* position: fixed; */
-    /* top: 0;
-    left: 0; */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 
@@ -172,6 +174,8 @@ img {
     background-color: #E17992;
 
     transition: 500ms;
+
+    z-index: 100;
 }
 
 .btn-mobile-menu {
