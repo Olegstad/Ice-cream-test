@@ -23,7 +23,7 @@
   </head>
   <body>
     <!-- Hero header -->
-    <section class="section hero-header">
+    <section class="section">
       <div class="container">
         <header class="header">
           <a class="link logo" href="./index.html">
@@ -37,24 +37,29 @@
                 class="mobile-menu-icon__burger"
                 href="./images/icons.svg#icon-burger-menu"
               ></use>
-              <use
-                class="mobile-menu-icon__close"
-                href="./images/icons.svg#icon-close-btn"
-              ></use>
+              <use class="mobile-menu-icon__close" href="./images/icons.svg#icon-close-btn"></use>
             </svg>
           </button>
-          <!-- <button class="btn btn-header-menu" type="button">
-          <span>Buy now</span>
-          <svg class="btn-header-menu__icon" width="8" height="12">
-            <use href="./images/icons.svg#icon-arrow"></use>
-          </svg>
-        </button> -->
         </header>
-        <!-- Hero -->
-        <div class="hero">
-          <h1 class="lead-slogan">
-            ice cream made with <span class="accent">passion</span>
-          </h1>
+        <div class="circle">
+          <picture>
+            <source media="" srcset="./images/hero-header/Ellipse-big.png" type="image/png" />
+            <img src="./images/hero-header/Ellipse-big.png" alt="circle" width="346" height="344" />
+          </picture>
+        </div>
+        <div class="ice-cream">
+          <picture>
+            <source media="" srcset="./images/hero-header/Ice-cream.png" type="image/png" />
+            <img
+              src="./images/hero-header/Ice-cream.png"
+              alt="ice-cream"
+              width="171"
+              height="410"
+            />
+          </picture>
+        </div>
+        <div class="slogan-box">
+          <h1 class="lead-slogan">ice cream made with <span class="accent">passion</span></h1>
           <button class="btn btn-red" type="button">Products</button>
           <button class="btn btn-white" type="button">How it’s made?</button>
         </div>
@@ -79,9 +84,7 @@
           <a class="link mobile-menu-nav__link" href="#how">How it’s made?</a>
         </li>
         <li class="mobile-menu-nav__item">
-          <a class="link mobile-menu-nav__link" href="#products"
-            >Our products</a
-          >
+          <a class="link mobile-menu-nav__link" href="#products">Our products</a>
         </li>
         <li class="mobile-menu-nav__item">
           <a class="link mobile-menu-nav__link" href="#contacts">Contact</a>

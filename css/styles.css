@@ -33,18 +33,28 @@ img {
 }
 
 .section {
-    padding: 8px 20px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFB8CA;
 }
 
-.hero-header {
-    background-color: #FFB8CA;;
+.container {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 502px;
 }
 
-/* Header */
+/* Hero header */
 
 .header {
+    position: absolute;
+    margin-top: 8px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -79,10 +89,27 @@ img {
     margin-left: 30px;
 } */
 
-/* Hero */
+.circle {
+    position: absolute;
+    top: 83px;
+    left: 36px;
 
-.hero {
-    width: 100%;
+    z-index: 1;
+}
+
+.ice-cream {
+    position: absolute;
+    top: 92px;
+    left: 117px;
+        
+    z-index: 1;
+}
+
+.slogan-box {
+    position: absolute;
+    margin-bottom: 158px;
+
+    z-index: 3;
 }
 
 .lead-slogan {
@@ -118,7 +145,6 @@ img {
 .btn-red {
     width: 62px;
     height: 24px;
-    margin-bottom: 158px;
     color: #FFFFFF;
     background-color: #D41443;
 }
